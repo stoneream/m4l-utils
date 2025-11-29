@@ -1,3 +1,7 @@
+include("logger.js");
+
+const logger = new Logger("main");
+
 function bang() {
-  post("Device initialization complete! \n");
+  logger.info("Device initialization complete!");
 }
