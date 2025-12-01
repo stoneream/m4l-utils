@@ -24,7 +24,7 @@ class LiveObjectObserver {
       this.initialized = true;
 
       this.api.property = this.property;
-      logger.info("Set property", { property: this.property });
+      this.logger.info("Set property", { property: this.property });
       return;
     }
 
